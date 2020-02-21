@@ -2,9 +2,8 @@ body {
   background-image: url(img/Africa.jpg);
   background-size: cover;
 }
-.jumbotron{
-  size: 30px
-}
+
+
 .box-one{
   text-align: center;
   color: black;

@@ -10,17 +10,33 @@
   </head>
   <body>
     <center>
-      <div class="jumbotron">
-        <div class="container">
-          <h1>AKAN NAME GENERATOR</h1>
-          <p>by shabaz farah</p>
-        </div>
-    </div>
+      <h1><strong>AKAN NAME GENERATOR</strong></h1>
+      <p>by shabaz farah</p>
       <div class="row">
         <div class="col-md-6">
           <div class="box-one">
             <p>The Akan naming tradition originating from Akan people is based off deriving names from the day of the week they're born and gender. A tradition adopted by atleast 80% of the Ghanian population. The Akan people estimated to be around 20 million spread between Ghana and Ivory COast are beleived to have originated from Ancient Ghana. Akan culture can be seen in Neighbouring African societies and some Central African populations. They consider themselves to be one nation, with art that is wide-ranging and reknown.</p>
             <p>Now Akan or not, you're presented with the opportunity to check what your Akan name would be. Just enter your name, choose your gender and hit submit to find out what your Akan name is.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="jumbotron">
+            <div>
+              <input type="text" id="month" placeholder="Month" maxlength="2" required >
+            </div>
+            <div>
+              <input type="text" id="year" placeholder="Year" maxlength="4" required>
+            </div>
+            <div>
+              <input type="text" id="day" placeholder="Day of the month" maxlength="2" required >
+            </div>
+            <div id="gender" class="checkbox">
+              Male<input type="radio" value="male" id="male" name="gender" checked>
+              Female<input type="radio" value="female" id="female" name="gender">
+            </div>
+            <div>
+              <input type="button" value="SUBMIT" onclick="getName();" class="btn btn-primary">
+            </div>
           </div>
         </div>
       </div>
