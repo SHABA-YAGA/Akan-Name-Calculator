@@ -2,14 +2,14 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>AKAN NAME GENERATOR</title>
+    <title>AKAN NAME CALCULATOR</title>
     <script src="main.js"> </script>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="bootstrap.css">
   </head>
   <body>
     <center>
-      <h1><strong>AKAN NAME GENERATOR</strong></h1>
+      <h1><strong>AKAN NAME CALCULATOR</strong></h1>
       <p>by shabaz farah</p>
       <div class="row">
         <div class="col-md-6">
@@ -21,8 +21,11 @@
         <div class="col-md-6">
           <div class="jumbotron">
             <div class="jumbotron-header">
-              <p><strong>Akan Name Calculator</strong></p>
               <p><em>Please enter your <strong>numerical</strong> birth dates</em></p>
+            </div>
+            <div id="gender" class="checkbox">
+              Male<input type="radio" value="male" id="male" name="gender" checked>
+              Female<input type="radio" value="female" id="female" name="gender">
             </div>
             <div>
               <input type="text" id="month" placeholder="Month" maxlength="2" required >
@@ -33,10 +36,7 @@
             <div>
               <input type="text" id="day" placeholder="Day of the month" maxlength="2" required >
             </div>
-            <div id="gender" class="checkbox">
-              Male<input type="radio" value="male" id="male" name="gender" checked>
-              Female<input type="radio" value="female" id="female" name="gender">
-            </div>
+
             <div>
               <input type="button" value="SUBMIT" onclick="fetchName();" class="btn btn-primary">
             </div>
