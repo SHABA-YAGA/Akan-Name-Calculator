@@ -2,12 +2,17 @@ body {
   background-image: url(img/Africa.jpg);
   background-size: cover;
 }
-
-
+.jumbotron{
+  float: left;
+}
+.jumbotron-header{
+  font-size: 15px;
+  height: 70px
+}
 .box-one{
   text-align: center;
   color: black;
   border: 5px solid black;
   padding: 10px;
-  background: rgba(255, 255, 255, .7);
+  background: rgba(255,255,255,.5);
 }
