@@ -3,8 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>AKAN NAME GENERATOR</title>
-    <script type="js/scripts.js">
-    </script>
+    <script src="main.js"> </script>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="bootstrap.css">
   </head>
@@ -23,7 +22,7 @@
           <div class="jumbotron">
             <div class="jumbotron-header">
               <p><strong>Akan Name Calculator</strong></p>
-              <p><em>Enter your name, birth dates and gender then hit submit</em></p> 
+              <p><em>Please enter your <strong>numerical</strong> birth dates</em></p>
             </div>
             <div>
               <input type="text" id="month" placeholder="Month" maxlength="2" required >
@@ -39,12 +38,11 @@
               Female<input type="radio" value="female" id="female" name="gender">
             </div>
             <div>
-              <input type="button" value="SUBMIT" onclick="getName();" class="btn btn-primary">
+              <input type="button" value="SUBMIT" onclick="fetchName();" class="btn btn-primary">
             </div>
           </div>
         </div>
       </div>
     <center>
   </body>
-  <script src="main.js"> </script>
 </html>

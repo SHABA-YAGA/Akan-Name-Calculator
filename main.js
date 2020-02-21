@@ -34,3 +34,56 @@ name = "Kwasi"
 name = "Akosua"
 }
 }
+// Monday
+if (dayOfTheWeek==2){
+if(gender=="male"){
+name ="Kwadwo"
+} else {
+name ="Adwoa"
+}
+}
+
+// Tuesday
+if (dayOfTheWeek==3){
+if(gender=="male"){
+name ="Kwabena"
+} else {
+name ="Abenaa"
+}
+}
+// Wednesday
+if (dayOfTheWeek==4){
+if(gender=="male"){
+name ="Kwaku"
+} else {
+name ="Akua"
+}
+}
+// Thursday
+if (dayOfTheWeek==5){
+if(gender=="male"){
+name ="Yaw"
+} else {
+name ="yaa"
+}
+}
+// Friday
+if (dayOfTheWeek==6){
+if(gender=="male"){
+name ="Kofi"
+} else {
+name ="Afua"
+}
+}
+// Saturday
+if (dayOfTheWeek==7){
+if(gender=="male"){
+name ="Kwame"
+} else {
+name ="Ama"
+}
+}
+
+alert(
+'Welcome,Your Akan name is ' + name )
+}
