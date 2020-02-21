@@ -1,0 +1,10 @@
+body {
+  background-image: url(img/Africa.jpg);
+  background-size: cover;
+}
+.box-one{
+  text-align: center;
+  background-color: black;
+  color: gold;
+  border: 10px solid gold
+}
