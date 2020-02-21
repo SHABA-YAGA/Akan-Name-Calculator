@@ -18,3 +18,19 @@ if ((DD=="") || (isNaN(DD) || (DD < 0) || (DD>31))) {
 alert('Invalid Day of the Month! Please enter correct Day of the Month');
 return;
 }
+
+var CC = YYYY.substring(0, 2)
+var YY = YYYY.substring(2, 4)
+
+var birthday = new Date(YYYY, MM, DD);
+var dayOfTheWeek = birthday.getDay();
+
+var name = "";
+// Sunday
+if (dayOfTheWeek==1){
+if(gender=="male"){
+name = "Kwasi"
+} else {
+name = "Akosua"
+}
+}
